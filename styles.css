@@ -25,9 +25,9 @@ button[data-testid="baseButton-primary"] {
 }
 
 button[data-testid="baseButton-primary"]:hover {
-    border-color: #FC625F;
+    border-color: #FF5733;
     background-color: #1E1E1E;
-    color: #FC625F;
+    color: #FF5733;
 }
 
 .e1f1d6gn4 .ef3psqc11{
@@ -57,7 +57,7 @@ button[data-testid="baseButton-primary"]:hover {
     justify-content: flex-start !important;
     border-color: transparent;
     background-color: transparent;
-    color: #68FFD5;
+    color: #FF5733;
 }
 
 div[data-testid="stHorizontalBlock"]{
@@ -65,5 +65,5 @@ div[data-testid="stHorizontalBlock"]{
 }
 
 .e1f1d6gn4 button[data-testid="baseButton-primary"]:active{
-    color: #68FFD5;
+    color: #FF5733;
 }

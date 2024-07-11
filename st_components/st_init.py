@@ -4,7 +4,7 @@ import json
 def set_style():    
     # PAGE CONFIG
     st.set_page_config(
-        page_title="Open-Interpreter UI",
+        page_title="scalenow-AI",
         page_icon="🤖",
         layout="wide",
         initial_sidebar_state="expanded",
@@ -24,11 +24,11 @@ def set_style():
             .stDownloadButton>button{
             width: 100%;}
             button[data-testid="baseButton-primary"]{
-            border-color: #505050;
+            border-color: #E57254;
             background-color: #1E1E1E;
             }
             button[data-testid="baseButton-primary"]:hover {
-            border-color: #FC625F;
+            border-color: #E57254;
             background-color: #1E1E1E;
             color: #FC625F;
             }

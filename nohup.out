@@ -1,0 +1,296 @@
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.108:8501
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.108:8501
+
+2024-06-30 13:13:40.766 304 GET /_stcore/allowed-message-origins (127.0.0.1) 3.46ms
+2024-06-30 13:13:40.768 304 GET / (127.0.0.1) 3.90ms
+2024-06-30 13:13:40.769 304 GET /_stcore/health (127.0.0.1) 4.57ms
+2024-06-30 13:13:40.827 101 GET /_stcore/stream (127.0.0.1) 1.29ms
+2024-06-30 13:13:41.035 304 GET /_stcore/health (127.0.0.1) 0.55ms
+2024-06-30 13:13:41.035 304 GET /_stcore/allowed-message-origins (127.0.0.1) 0.28ms
+2024-06-30 13:13:41.049 101 GET /_stcore/stream (127.0.0.1) 0.55ms
+2024-06-30 13:22:44.434 304 GET / (127.0.0.1) 3.42ms
+2024-06-30 13:22:44.436 304 GET /_stcore/health (127.0.0.1) 4.19ms
+2024-06-30 13:22:44.437 304 GET /_stcore/allowed-message-origins (127.0.0.1) 4.76ms
+2024-06-30 13:22:44.491 101 GET /_stcore/stream (127.0.0.1) 1.50ms
+2024-06-30 13:22:44.719 304 GET /_stcore/health (127.0.0.1) 0.57ms
+2024-06-30 13:22:44.720 304 GET /_stcore/allowed-message-origins (127.0.0.1) 0.44ms
+2024-06-30 13:22:44.821 101 GET /_stcore/stream (127.0.0.1) 0.76ms
+2024-06-30 13:22:44.849 Uncaught app exception
+Traceback (most recent call last):
+  File "/Users/abhichaturvedi/miniconda3/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 541, in _run_script
+    exec(code, module.__dict__)
+  File "/Users/abhichaturvedi/OpenInterpreterUI/app.py", line 9, in <module>
+    from st_components.st_main import st_main
+  File "/Users/abhichaturvedi/OpenInterpreterUI/st_components/st_main.py", line 63
+    '<p style="color:#3498db;"> st.info("👉 Set your OpenAI api key, to be able to run code while you generate it 🚀") </p>'
+                                                                                                                          ^
+IndentationError: unindent does not match any outer indentation level
+2024-06-30 13:26:09.978 304 GET / (127.0.0.1) 3.11ms
+2024-06-30 13:26:09.983 304 GET /_stcore/health (127.0.0.1) 6.14ms
+2024-06-30 13:26:09.983 304 GET /_stcore/allowed-message-origins (127.0.0.1) 6.49ms
+2024-06-30 13:26:09.998 101 GET /_stcore/stream (127.0.0.1) 0.42ms
+2024-06-30 13:26:10.235 304 GET /_stcore/health (127.0.0.1) 0.63ms
+2024-06-30 13:26:10.237 304 GET /_stcore/allowed-message-origins (127.0.0.1) 0.97ms
+2024-06-30 13:26:10.336 101 GET /_stcore/stream (127.0.0.1) 0.64ms
+2024-06-30 13:26:10.350 Uncaught app exception
+Traceback (most recent call last):
+  File "/Users/abhichaturvedi/miniconda3/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 541, in _run_script
+    exec(code, module.__dict__)
+  File "/Users/abhichaturvedi/OpenInterpreterUI/app.py", line 9, in <module>
+    from st_components.st_main import st_main
+  File "/Users/abhichaturvedi/OpenInterpreterUI/st_components/st_main.py", line 63
+    st.markdown('<p style="color:#3498db;">👉 Set your OpenAI api key, to be able to run code while you generate it 🚀</p>', unsafe_allow_html=True)
+                                                                                                                                                  ^
+IndentationError: unindent does not match any outer indentation level
+2024-06-30 13:29:46.461 304 GET / (127.0.0.1) 15.62ms
+2024-06-30 13:29:46.509 304 GET /_stcore/health (127.0.0.1) 15.26ms
+2024-06-30 13:29:46.516 304 GET /_stcore/allowed-message-origins (127.0.0.1) 4.55ms
+2024-06-30 13:29:46.595 101 GET /_stcore/stream (127.0.0.1) 4.21ms
+2024-06-30 13:29:46.649 Uncaught app exception
+Traceback (most recent call last):
+  File "/Users/abhichaturvedi/miniconda3/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 541, in _run_script
+    exec(code, module.__dict__)
+  File "/Users/abhichaturvedi/OpenInterpreterUI/app.py", line 9, in <module>
+    from st_components.st_main import st_main
+  File "/Users/abhichaturvedi/OpenInterpreterUI/st_components/st_main.py", line 63
+    st.info("👉 Set your OpenAI api key, to be able to run code while you generate it 🚀")
+                                                                                        ^
+IndentationError: unindent does not match any outer indentation level
+2024-06-30 13:29:47.721 304 GET /_stcore/health (127.0.0.1) 1.63ms
+2024-06-30 13:29:47.722 304 GET /_stcore/allowed-message-origins (127.0.0.1) 1.57ms
+2024-06-30 13:29:47.746 101 GET /_stcore/stream (127.0.0.1) 0.75ms
+2024-06-30 13:29:47.753 Uncaught app exception
+Traceback (most recent call last):
+  File "/Users/abhichaturvedi/miniconda3/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 541, in _run_script
+    exec(code, module.__dict__)
+  File "/Users/abhichaturvedi/OpenInterpreterUI/app.py", line 9, in <module>
+    from st_components.st_main import st_main
+  File "/Users/abhichaturvedi/OpenInterpreterUI/st_components/st_main.py", line 63
+    st.info("👉 Set your OpenAI api key, to be able to run code while you generate it 🚀")
+                                                                                        ^
+IndentationError: unindent does not match any outer indentation level
+2024-06-30 13:31:07.653 304 GET / (127.0.0.1) 4.50ms
+2024-06-30 13:31:07.661 304 GET /_stcore/allowed-message-origins (127.0.0.1) 5.64ms
+2024-06-30 13:31:07.662 304 GET /_stcore/health (127.0.0.1) 5.93ms
+2024-06-30 13:31:07.672 101 GET /_stcore/stream (127.0.0.1) 0.51ms
+2024-06-30 13:31:07.904 304 GET /_stcore/health (127.0.0.1) 0.59ms
+2024-06-30 13:31:07.905 304 GET /_stcore/allowed-message-origins (127.0.0.1) 0.43ms
+2024-06-30 13:31:08.011 101 GET /_stcore/stream (127.0.0.1) 0.65ms
+2024-06-30 13:36:59.300 304 GET / (127.0.0.1) 20.18ms
+2024-06-30 13:36:59.311 304 GET /_stcore/health (127.0.0.1) 15.29ms
+2024-06-30 13:36:59.317 304 GET /_stcore/allowed-message-origins (127.0.0.1) 19.90ms
+2024-06-30 13:36:59.393 101 GET /_stcore/stream (127.0.0.1) 1.42ms
+2024-06-30 13:36:59.734 304 GET /_stcore/health (127.0.0.1) 0.83ms
+2024-06-30 13:36:59.735 304 GET /_stcore/allowed-message-origins (127.0.0.1) 0.35ms
+2024-06-30 13:36:59.869 101 GET /_stcore/stream (127.0.0.1) 0.75ms
+2024-06-30 13:38:44.781 200 GET / (127.0.0.1) 7.37ms
+2024-06-30 13:38:44.784 304 GET /_stcore/health (127.0.0.1) 1.45ms
+2024-06-30 13:38:44.784 304 GET /_stcore/allowed-message-origins (127.0.0.1) 0.69ms
+2024-06-30 13:38:44.836 101 GET /_stcore/stream (127.0.0.1) 1.09ms
+2024-06-30 13:38:45.064 304 GET /_stcore/health (127.0.0.1) 0.53ms
+2024-06-30 13:38:45.065 304 GET /_stcore/allowed-message-origins (127.0.0.1) 0.27ms
+2024-06-30 13:38:45.170 101 GET /_stcore/stream (127.0.0.1) 0.62ms
+2024-06-30 13:39:23.254 304 GET / (127.0.0.1) 4.68ms
+2024-06-30 13:39:23.257 304 GET /_stcore/health (127.0.0.1) 5.49ms
+2024-06-30 13:39:23.258 304 GET /_stcore/allowed-message-origins (127.0.0.1) 6.23ms
+2024-06-30 13:39:23.325 101 GET /_stcore/stream (127.0.0.1) 1.68ms
+2024-06-30 13:39:23.588 304 GET /_stcore/health (127.0.0.1) 0.69ms
+2024-06-30 13:39:23.588 304 GET /_stcore/allowed-message-origins (127.0.0.1) 0.43ms
+2024-06-30 13:39:23.711 101 GET /_stcore/stream (127.0.0.1) 0.71ms
+2024-06-30 13:40:13.954 304 GET / (127.0.0.1) 4.14ms
+2024-06-30 13:40:13.960 304 GET /_stcore/health (127.0.0.1) 3.46ms
+2024-06-30 13:40:13.961 304 GET /_stcore/allowed-message-origins (127.0.0.1) 3.88ms
+2024-06-30 13:40:14.023 101 GET /_stcore/stream (127.0.0.1) 1.22ms
+2024-06-30 13:40:14.282 304 GET /_stcore/health (127.0.0.1) 0.59ms
+2024-06-30 13:40:14.283 304 GET /_stcore/allowed-message-origins (127.0.0.1) 0.27ms
+2024-06-30 13:40:14.402 101 GET /_stcore/stream (127.0.0.1) 0.82ms
+2024-06-30 13:41:45.563 304 GET / (127.0.0.1) 19.95ms
+2024-06-30 13:41:45.573 304 GET /_stcore/health (127.0.0.1) 20.34ms
+2024-06-30 13:41:45.576 304 GET /_stcore/allowed-message-origins (127.0.0.1) 19.31ms
+2024-06-30 13:41:45.624 101 GET /_stcore/stream (127.0.0.1) 1.15ms
+2024-06-30 13:41:45.973 304 GET /_stcore/health (127.0.0.1) 1.45ms
+2024-06-30 13:41:45.974 304 GET /_stcore/allowed-message-origins (127.0.0.1) 1.48ms
+2024-06-30 13:41:46.220 101 GET /_stcore/stream (127.0.0.1) 6.14ms
+2024-06-30 13:42:05.685 304 GET / (127.0.0.1) 9.84ms
+2024-06-30 13:42:05.689 304 GET /_stcore/health (127.0.0.1) 1.42ms
+2024-06-30 13:42:05.690 304 GET /_stcore/allowed-message-origins (127.0.0.1) 1.08ms
+2024-06-30 13:42:05.701 101 GET /_stcore/stream (127.0.0.1) 0.90ms
+2024-06-30 13:42:05.938 304 GET /_stcore/health (127.0.0.1) 0.64ms
+2024-06-30 13:42:05.939 304 GET /_stcore/allowed-message-origins (127.0.0.1) 0.53ms
+2024-06-30 13:42:06.040 101 GET /_stcore/stream (127.0.0.1) 0.65ms
+2024-06-30 13:42:50.441 200 GET / (127.0.0.1) 13.51ms
+2024-06-30 13:42:50.445 200 GET /_stcore/health (127.0.0.1) 2.49ms
+2024-06-30 13:42:50.446 304 GET /_stcore/allowed-message-origins (127.0.0.1) 3.43ms
+2024-06-30 13:42:50.458 101 GET /_stcore/stream (127.0.0.1) 0.75ms
+2024-06-30 13:42:50.716 304 GET /_stcore/health (127.0.0.1) 0.67ms
+2024-06-30 13:42:50.717 304 GET /_stcore/allowed-message-origins (127.0.0.1) 0.43ms
+2024-06-30 13:42:50.733 101 GET /_stcore/stream (127.0.0.1) 0.71ms
+2024-06-30 13:46:12.804 304 GET / (127.0.0.1) 7.70ms
+2024-06-30 13:46:12.808 304 GET /_stcore/health (127.0.0.1) 8.05ms
+2024-06-30 13:46:12.809 304 GET /_stcore/allowed-message-origins (127.0.0.1) 7.52ms
+2024-06-30 13:46:12.831 101 GET /_stcore/stream (127.0.0.1) 0.60ms
+2024-06-30 13:46:13.066 304 GET /_stcore/health (127.0.0.1) 1.45ms
+2024-06-30 13:46:13.067 304 GET /_stcore/allowed-message-origins (127.0.0.1) 0.87ms
+2024-06-30 13:46:13.181 101 GET /_stcore/stream (127.0.0.1) 0.69ms
+2024-06-30 13:47:13.198 304 GET / (127.0.0.1) 4.02ms
+2024-06-30 13:47:13.204 304 GET /_stcore/health (127.0.0.1) 8.20ms
+2024-06-30 13:47:13.205 304 GET /_stcore/allowed-message-origins (127.0.0.1) 8.84ms
+2024-06-30 13:47:13.259 101 GET /_stcore/stream (127.0.0.1) 1.16ms
+2024-06-30 13:47:13.485 304 GET /_stcore/health (127.0.0.1) 0.65ms
+2024-06-30 13:47:13.486 304 GET /_stcore/allowed-message-origins (127.0.0.1) 0.24ms
+2024-06-30 13:47:13.506 101 GET /_stcore/stream (127.0.0.1) 0.72ms
+2024-06-30 13:47:52.409 304 GET / (127.0.0.1) 2.46ms
+2024-06-30 13:47:52.411 304 GET /_stcore/health (127.0.0.1) 3.90ms
+2024-06-30 13:47:52.412 304 GET /_stcore/allowed-message-origins (127.0.0.1) 4.32ms
+2024-06-30 13:47:52.471 101 GET /_stcore/stream (127.0.0.1) 0.78ms
+2024-06-30 13:47:52.689 304 GET /_stcore/health (127.0.0.1) 0.64ms
+2024-06-30 13:47:52.690 304 GET /_stcore/allowed-message-origins (127.0.0.1) 0.27ms
+2024-06-30 13:47:52.797 101 GET /_stcore/stream (127.0.0.1) 0.82ms
+2024-06-30 13:48:44.321 304 GET / (127.0.0.1) 12.52ms
+2024-06-30 13:48:44.328 200 GET /_stcore/health (127.0.0.1) 12.63ms
+2024-06-30 13:48:44.329 304 GET /_stcore/allowed-message-origins (127.0.0.1) 12.48ms
+2024-06-30 13:48:44.432 101 GET /_stcore/stream (127.0.0.1) 1.09ms
+2024-06-30 13:48:44.453 200 GET /static/media/SourceSerifPro-SemiBold.5c1d378dd5990ef334ca.woff2 (127.0.0.1) 8.80ms
+2024-06-30 13:48:44.456 200 GET /static/media/SourceSansPro-Bold.118dea98980e20a81ced.woff2 (127.0.0.1) 11.44ms
+2024-06-30 13:48:44.702 304 GET /_stcore/health (127.0.0.1) 0.65ms
+2024-06-30 13:48:44.703 304 GET /_stcore/allowed-message-origins (127.0.0.1) 0.68ms
+2024-06-30 13:48:44.894 101 GET /_stcore/stream (127.0.0.1) 2.27ms
+2024-06-30 15:01:57.513 200 GET / (127.0.0.1) 22.30ms
+2024-06-30 15:01:57.532 200 GET /_stcore/health (127.0.0.1) 33.49ms
+2024-06-30 15:01:57.534 200 GET /_stcore/allowed-message-origins (127.0.0.1) 34.75ms
+2024-06-30 15:01:57.544 200 GET /static/media/SourceSansPro-Regular.0d69e5ff5e92ac64a0c9.woff2 (127.0.0.1) 8.38ms
+2024-06-30 15:01:57.552 200 GET /static/media/SourceSerifPro-SemiBold.5c1d378dd5990ef334ca.woff2 (127.0.0.1) 12.22ms
+2024-06-30 15:01:57.553 200 GET /static/media/SourceSansPro-Bold.118dea98980e20a81ced.woff2 (127.0.0.1) 13.66ms
+2024-06-30 15:01:57.670 200 GET /static/js/main.9ba2bac6.js (127.0.0.1) 130.04ms
+2024-06-30 15:01:57.671 200 GET /static/css/main.77d1c464.css (127.0.0.1) 131.52ms
+2024-06-30 15:01:58.002 200 GET /_stcore/health (127.0.0.1) 0.80ms
+2024-06-30 15:01:58.004 200 GET /_stcore/allowed-message-origins (127.0.0.1) 1.22ms
+2024-06-30 15:01:58.013 200 GET /favicon.png (127.0.0.1) 1.30ms
+2024-06-30 15:01:58.074 101 GET /_stcore/stream (127.0.0.1) 1.96ms
+2024-06-30 15:01:58.965 200 GET /static/js/319.9fd0aca5.chunk.js (127.0.0.1) 3.85ms
+2024-06-30 15:01:58.968 200 GET /static/js/656.9e9c3287.chunk.js (127.0.0.1) 2.59ms
+2024-06-30 15:01:58.972 200 GET /static/js/187.20a761cd.chunk.js (127.0.0.1) 2.90ms
+2024-06-30 15:01:58.974 200 GET /static/js/691.20820531.chunk.js (127.0.0.1) 5.21ms
+2024-06-30 15:01:58.976 200 GET /static/js/792.196f379c.chunk.js (127.0.0.1) 1.34ms
+2024-06-30 15:01:58.977 200 GET /static/js/106.e88e98f6.chunk.js (127.0.0.1) 1.01ms
+2024-06-30 15:01:58.979 200 GET /static/js/500.2f342086.chunk.js (127.0.0.1) 0.70ms
+2024-06-30 15:01:59.058 200 GET /static/media/SourceCodePro-Regular.84b900b88d09398d86b0.woff2 (127.0.0.1) 3.24ms
+2024-06-30 15:01:59.061 200 GET /static/media/SourceSansPro-SemiBold.abed79cd0df1827e18cf.woff2 (127.0.0.1) 3.13ms
+2024-06-30 15:08:06.285 200 GET / (127.0.0.1) 9.05ms
+2024-06-30 15:08:06.288 304 GET /_stcore/health (127.0.0.1) 8.56ms
+2024-06-30 15:08:06.288 304 GET /_stcore/allowed-message-origins (127.0.0.1) 8.98ms
+2024-06-30 15:08:06.336 101 GET /_stcore/stream (127.0.0.1) 1.52ms
+2024-06-30 15:08:06.349 200 GET /static/media/SourceSansPro-Regular.0d69e5ff5e92ac64a0c9.woff2 (127.0.0.1) 1.95ms
+2024-06-30 15:08:06.352 200 GET /static/media/SourceSerifPro-SemiBold.5c1d378dd5990ef334ca.woff2 (127.0.0.1) 1.94ms
+2024-06-30 15:08:06.352 200 GET /static/media/SourceSansPro-Bold.118dea98980e20a81ced.woff2 (127.0.0.1) 2.61ms
+2024-06-30 15:08:06.670 304 GET /_stcore/health (127.0.0.1) 0.96ms
+2024-06-30 15:08:06.670 304 GET /_stcore/allowed-message-origins (127.0.0.1) 0.99ms
+2024-06-30 15:08:06.790 101 GET /_stcore/stream (127.0.0.1) 0.68ms
+2024-06-30 15:08:07.622 200 GET /static/js/307.aadc6393.chunk.js (127.0.0.1) 3.45ms
+2024-06-30 15:08:47.669 304 GET /_stcore/allowed-message-origins (127.0.0.1) 3.09ms
+2024-06-30 15:08:47.670 304 GET / (127.0.0.1) 3.21ms
+2024-06-30 15:08:47.671 200 GET /_stcore/health (127.0.0.1) 3.42ms
+2024-06-30 15:08:47.719 101 GET /_stcore/stream (127.0.0.1) 1.25ms
+2024-06-30 15:08:48.035 304 GET /_stcore/health (127.0.0.1) 0.47ms
+2024-06-30 15:08:48.036 304 GET /_stcore/allowed-message-origins (127.0.0.1) 0.25ms
+2024-06-30 15:08:48.140 101 GET /_stcore/stream (127.0.0.1) 0.56ms
+2024-06-30 15:09:03.885 304 GET / (127.0.0.1) 16.33ms
+2024-06-30 15:09:03.886 304 GET /_stcore/health (127.0.0.1) 16.85ms
+2024-06-30 15:09:03.886 304 GET /_stcore/allowed-message-origins (127.0.0.1) 0.38ms
+2024-06-30 15:09:03.943 101 GET /_stcore/stream (127.0.0.1) 0.82ms
+2024-06-30 15:09:03.962 200 GET /static/media/SourceSerifPro-SemiBold.5c1d378dd5990ef334ca.woff2 (127.0.0.1) 1.88ms
+2024-06-30 15:09:03.963 200 GET /static/media/SourceSansPro-Bold.118dea98980e20a81ced.woff2 (127.0.0.1) 2.57ms
+2024-06-30 15:09:04.249 304 GET /_stcore/health (127.0.0.1) 0.50ms
+2024-06-30 15:09:04.250 304 GET /_stcore/allowed-message-origins (127.0.0.1) 0.34ms
+2024-06-30 15:09:04.255 200 GET /favicon.png (127.0.0.1) 0.90ms
+2024-06-30 15:09:04.358 101 GET /_stcore/stream (127.0.0.1) 0.62ms
+2024-06-30 15:40:37.842 200 GET / (127.0.0.1) 17.53ms
+2024-06-30 15:40:37.849 200 GET /_stcore/health (127.0.0.1) 19.00ms
+2024-06-30 15:40:37.851 200 GET /_stcore/allowed-message-origins (127.0.0.1) 20.47ms
+2024-06-30 15:40:37.878 200 GET /static/media/SourceSansPro-Regular.0d69e5ff5e92ac64a0c9.woff2 (127.0.0.1) 4.18ms
+2024-06-30 15:40:37.879 200 GET /static/media/SourceSerifPro-SemiBold.5c1d378dd5990ef334ca.woff2 (127.0.0.1) 4.61ms
+2024-06-30 15:40:37.886 200 GET /static/media/SourceSansPro-Bold.118dea98980e20a81ced.woff2 (127.0.0.1) 10.79ms
+2024-06-30 15:40:38.128 304 GET /_stcore/health (127.0.0.1) 1.14ms
+2024-06-30 15:40:38.137 304 GET /_stcore/allowed-message-origins (127.0.0.1) 10.28ms
+2024-06-30 15:40:38.150 200 GET /favicon.png (127.0.0.1) 0.83ms
+2024-06-30 15:40:38.259 101 GET /_stcore/stream (127.0.0.1) 3.78ms
+2024-06-30 15:40:39.229 200 GET /static/js/500.2f342086.chunk.js (127.0.0.1) 1.85ms
+2024-06-30 15:40:59.498 304 GET / (127.0.0.1) 1.76ms
+2024-06-30 15:40:59.499 304 GET /_stcore/health (127.0.0.1) 2.45ms
+2024-06-30 15:40:59.499 304 GET /_stcore/allowed-message-origins (127.0.0.1) 2.60ms
+2024-06-30 15:40:59.571 101 GET /_stcore/stream (127.0.0.1) 0.71ms
+2024-06-30 15:40:59.804 304 GET /_stcore/health (127.0.0.1) 0.63ms
+2024-06-30 15:40:59.805 304 GET /_stcore/allowed-message-origins (127.0.0.1) 0.25ms
+2024-06-30 15:40:59.925 101 GET /_stcore/stream (127.0.0.1) 0.59ms
+2024-06-30 15:42:46.083 200 GET / (127.0.0.1) 9.25ms
+2024-06-30 15:42:46.098 200 GET /_stcore/health (127.0.0.1) 23.61ms
+2024-06-30 15:42:46.099 200 GET /_stcore/allowed-message-origins (127.0.0.1) 24.30ms
+2024-06-30 15:42:46.154 101 GET /_stcore/stream (127.0.0.1) 0.83ms
+2024-06-30 15:42:46.182 200 GET /static/media/SourceSansPro-Regular.0d69e5ff5e92ac64a0c9.woff2 (127.0.0.1) 5.79ms
+2024-06-30 15:42:46.186 200 GET /static/media/SourceSerifPro-SemiBold.5c1d378dd5990ef334ca.woff2 (127.0.0.1) 3.07ms
+2024-06-30 15:42:46.187 200 GET /static/media/SourceSansPro-Bold.118dea98980e20a81ced.woff2 (127.0.0.1) 4.41ms
+2024-06-30 15:42:46.372 304 GET /_stcore/health (127.0.0.1) 0.46ms
+2024-06-30 15:42:46.373 304 GET /_stcore/allowed-message-origins (127.0.0.1) 0.32ms
+2024-06-30 15:42:46.379 200 GET /favicon.png (127.0.0.1) 0.65ms
+2024-06-30 15:42:46.474 101 GET /_stcore/stream (127.0.0.1) 0.56ms
+2024-06-30 15:45:08.710 304 GET / (127.0.0.1) 5.10ms
+2024-06-30 15:45:08.715 304 GET /_stcore/health (127.0.0.1) 8.56ms
+2024-06-30 15:45:08.716 304 GET /_stcore/allowed-message-origins (127.0.0.1) 8.19ms
+2024-06-30 15:45:08.758 101 GET /_stcore/stream (127.0.0.1) 0.47ms
+2024-06-30 15:45:08.780 200 GET /static/media/SourceSerifPro-SemiBold.5c1d378dd5990ef334ca.woff2 (127.0.0.1) 3.84ms
+2024-06-30 15:45:08.782 200 GET /static/media/SourceSansPro-Bold.118dea98980e20a81ced.woff2 (127.0.0.1) 2.07ms
+2024-06-30 15:45:08.984 304 GET /_stcore/health (127.0.0.1) 0.71ms
+2024-06-30 15:45:08.985 304 GET /_stcore/allowed-message-origins (127.0.0.1) 0.49ms
+2024-06-30 15:45:08.995 101 GET /_stcore/stream (127.0.0.1) 0.63ms
+2024-06-30 15:47:08.451 304 GET / (127.0.0.1) 3.65ms
+2024-06-30 15:47:08.453 304 GET /_stcore/health (127.0.0.1) 3.74ms
+2024-06-30 15:47:08.454 304 GET /_stcore/allowed-message-origins (127.0.0.1) 3.81ms
+2024-06-30 15:47:08.501 101 GET /_stcore/stream (127.0.0.1) 0.59ms
+2024-06-30 15:47:08.540 200 GET /static/media/SourceSerifPro-SemiBold.5c1d378dd5990ef334ca.woff2 (127.0.0.1) 3.37ms
+2024-06-30 15:47:08.541 200 GET /static/media/SourceSansPro-Bold.118dea98980e20a81ced.woff2 (127.0.0.1) 4.29ms
+2024-06-30 15:47:08.800 304 GET /_stcore/health (127.0.0.1) 1.42ms
+2024-06-30 15:47:08.800 304 GET /_stcore/allowed-message-origins (127.0.0.1) 1.45ms
+2024-06-30 15:47:08.944 101 GET /_stcore/stream (127.0.0.1) 0.80ms
+  Stopping...
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.108:8501
+
+
+  A new version of Streamlit is available.
+
+  See what's new at https://discuss.streamlit.io/c/announcements
+
+  Enter the following command to upgrade:
+  $ pip install streamlit --upgrade
+
+2024-07-05 11:43:39.365 Uncaught app exception
+Traceback (most recent call last):
+  File "/Users/abhichaturvedi/miniconda3/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 541, in _run_script
+    exec(code, module.__dict__)
+  File "/Users/abhichaturvedi/OpenInterpreterUI/app.py", line 3, in <module>
+    import interpreter
+  File "/Users/abhichaturvedi/miniconda3/lib/python3.12/site-packages/interpreter/__init__.py", line 1, in <module>
+    from .core.core import OpenInterpreter
+  File "/Users/abhichaturvedi/miniconda3/lib/python3.12/site-packages/interpreter/core/core.py", line 10, in <module>
+    from ..terminal_interface.start_terminal_interface import start_terminal_interface
+  File "/Users/abhichaturvedi/miniconda3/lib/python3.12/site-packages/interpreter/terminal_interface/start_terminal_interface.py", line 16, in <module>
+    from .validate_llm_settings import validate_llm_settings
+  File "/Users/abhichaturvedi/miniconda3/lib/python3.12/site-packages/interpreter/terminal_interface/validate_llm_settings.py", line 5, in <module>
+    import litellm
+  File "/Users/abhichaturvedi/miniconda3/lib/python3.12/site-packages/litellm/__init__.py", line 9, in <module>
+    from litellm.caching import Cache
+  File "/Users/abhichaturvedi/miniconda3/lib/python3.12/site-packages/litellm/caching.py", line 14, in <module>
+    from openai._models import BaseModel as OpenAIObject
+ModuleNotFoundError: No module named 'openai._models'
